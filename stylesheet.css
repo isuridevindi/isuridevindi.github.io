@@ -138,3 +138,55 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgba(222, 200, 249, 0.338);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: rgba(98, 31, 179, 0.457);
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: rgba(98, 31, 179, 0.457);
+  color: white;
+}
+
+/* div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+} */
+
+@media screen and (max-width: 1200px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: rgba(222, 200, 249, 0.993);
+    z-index: 1;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* @media screen and (max-width: 1000px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  } 
+}*/
