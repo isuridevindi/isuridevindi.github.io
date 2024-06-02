@@ -684,20 +684,20 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .services {
       margin-bottom: 4em; } }
-      .services .icon {
-        position: absolute;
-        top: 50%; /* Vertically center */
-        left: 0; /* Align right */
-        transform: translateY(-50%); /* Adjust for vertical centering */
-        width: 40%;
-        height: 100%;
-        display: flex; /* Use flexbox for vertical centering */
-        justify-content: center; /* Align horizontally */
-        align-items: center; /* Vertically center */
-        background: #2c98f0;
-    }
+      /* .services .icon {
+        position: absolute; */
+        /* top: 50%; Vertically center */
+        /* left: 0; Align right */
+        /* transform: translateY(-50%); Adjust for vertical centering */
+        /* width: 40%;
+        height: 100%; */
+        /* display: flex; Use flexbox for vertical centering */
+        /* justify-content: center; Align horizontally */
+        /* align-items: center; Vertically center */
+        /* background: #2c98f0; */
+    /* } */
     
-    .services .icon:before, 
+    /* .services .icon:before, 
     .services .icon:after {
         position: absolute;
         left: 0;
@@ -712,9 +712,9 @@ body.offcanvas {
         border-style: solid;
         border-width: 0 0px 0px 0px;
         border-color: transparent transparent #2c98f0 transparent;
-    }
+    } */
     
-    .services .icon:after {
+    /* .services .icon:after {
         bottom: -30px;
         width: 0;
         height: 0;
@@ -727,9 +727,9 @@ body.offcanvas {
         font-size: 30px;
         color: #fff;
         z-index: 1;
-    }
+    } */
     
-  /* .services .icon {
+  .services .icon {
     position: absolute;
     top: 25%;
     left: 0;
@@ -763,10 +763,10 @@ body.offcanvas {
       color: #fff;
       z-index: 1;
       display: table-cell;
-      vertical-align: middle; } */
+      vertical-align: middle; }
   .services .desc {
-    /* margin-top: 60px; */
-    margin-left: 42%; }
+    /* margin-top: 60px; 
+    margin-left: 42%; */}
     .services .desc h3 {
       font-size: 18px;
       margin-bottom: 0px;
